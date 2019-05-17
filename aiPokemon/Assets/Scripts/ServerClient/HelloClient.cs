@@ -51,5 +51,6 @@ public class HelloClient : MonoBehaviour
     private void OnApplicationQuit()
     {
         _helloRequester.Stop();
+        Destroy(this);
     }
 }

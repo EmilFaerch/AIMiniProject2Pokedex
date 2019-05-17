@@ -23,8 +23,8 @@ public class HelloRequester : RunAbleThread
 
         using (RequestSocket client = new RequestSocket())
         {
-            client.Connect("tcp://localhost:5555");
-
+            client.Connect("tcp://127.0.0.1:5222");
+            
             Debug.Log("Client Connected");
 
             while (Running)

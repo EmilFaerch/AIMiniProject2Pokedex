@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 72920915}
   - component: {fileID: 72920914}
   - component: {fileID: 72920913}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Charmander
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -366,7 +366,7 @@ GameObject:
   - component: {fileID: 251381756}
   - component: {fileID: 251381755}
   - component: {fileID: 251381754}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Cubone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -523,7 +523,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Pok\xE9 Name\n"
+  m_Text: 
 --- !u!222 &272540690
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -544,7 +544,7 @@ GameObject:
   - component: {fileID: 338595190}
   - component: {fileID: 338595189}
   - component: {fileID: 338595188}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Pikachu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -643,6 +643,7 @@ GameObject:
   - component: {fileID: 534669904}
   - component: {fileID: 534669906}
   - component: {fileID: 534669903}
+  - component: {fileID: 534669907}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -729,6 +730,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sensitivity: 2
   smoothing: 2
+--- !u!114 &534669907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534669902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f12398973e48edd40b4499a2425fc1f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &579118222
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,7 +900,7 @@ GameObject:
   - component: {fileID: 690259689}
   - component: {fileID: 690259688}
   - component: {fileID: 690259690}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pokemon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -933,7 +946,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: c08d9697c8f77ce4490a6aaa69d04cb8, type: 3}
+  m_Texture: {fileID: 2800000, guid: e9f5fc254e8b6914c85c8d400f6676ee, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -969,50 +982,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 690259686}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &882626289
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 882626291}
-  - component: {fileID: 882626290}
-  m_Layer: 0
-  m_Name: HelloClient
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &882626290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 882626289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e897de29c30c9ea4b8ec52c74328904a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SendPack: 1
---- !u!4 &882626291
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 882626289}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.1, y: 2.05, z: -55.4}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &933490817
 GameObject:
   m_ObjectHideFlags: 0
@@ -1026,7 +995,7 @@ GameObject:
   - component: {fileID: 933490820}
   - component: {fileID: 933490819}
   - component: {fileID: 933490822}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pokemon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1121,7 +1090,7 @@ GameObject:
   - component: {fileID: 1121360509}
   - component: {fileID: 1121360508}
   - component: {fileID: 1121360511}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pokemon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1167,7 +1136,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: 185ee9ac1fe1e6d4ba93fdf12317e2c9, type: 3}
+  m_Texture: {fileID: 2800000, guid: 95979c005c85afb4395fbdcae3426876, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1203,6 +1172,51 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 100, y: 100, z: 0.15}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1269903694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1269903696}
+  - component: {fileID: 1269903695}
+  m_Layer: 0
+  m_Name: unityClient
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1269903695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269903694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 656d951582ff8c44891a039cc858e17d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemonSearching: 0
+  isConnected: 0
+--- !u!4 &1269903696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269903694}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.1, y: 2.05, z: -55.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1362331323
 GameObject:
   m_ObjectHideFlags: 0
@@ -1439,7 +1453,7 @@ GameObject:
   - component: {fileID: 1386272519}
   - component: {fileID: 1386272518}
   - component: {fileID: 1386272521}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pokemon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1633,7 +1647,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 323, y: -187}
+  m_AnchoredPosition: {x: 323, y: -186.99997}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1627292781
@@ -1685,7 +1699,7 @@ GameObject:
   - component: {fileID: 1663027861}
   - component: {fileID: 1663027860}
   - component: {fileID: 1663027859}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Bulbasaur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1785,7 +1799,7 @@ GameObject:
   - component: {fileID: 1926639436}
   - component: {fileID: 1926639435}
   - component: {fileID: 1926639438}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pokemon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1831,7 +1845,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: f8f7e75b6508bc04b885b3d61fa41325, type: 3}
+  m_Texture: {fileID: 2800000, guid: 5e1ed16c89031ce4181ce14dcc8c297b, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1971,7 +1985,7 @@ GameObject:
   - component: {fileID: 2135736633}
   - component: {fileID: 2135736632}
   - component: {fileID: 2135736631}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Squirtle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
